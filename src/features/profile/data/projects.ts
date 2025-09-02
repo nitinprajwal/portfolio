@@ -7,7 +7,7 @@ export const PROJECTS: Project[] = [
     period: {
       start: "2025",
     },
-    link: "#",
+    link: "https://github.com/nitinprajwal/NeoBrowser",
     skills: [
       "Electron",
       "Vercel AI SDK",
@@ -30,7 +30,7 @@ export const PROJECTS: Project[] = [
     period: {
       start: "2025",
     },
-    link: "#",
+    link: "https://github.com/nitinprajwal/SpotTune",
     skills: [
       "Go",
       "FFmpeg",
@@ -52,7 +52,7 @@ export const PROJECTS: Project[] = [
     period: {
       start: "2024",
     },
-    link: "#",
+    link: "https://github.com/nitinprajwal/Argus-synopsis",
     skills: [
       "Python",
       "TensorFlow Lite",
@@ -76,7 +76,7 @@ export const PROJECTS: Project[] = [
     period: {
       start: "2023",
     },
-    link: "#",
+    link: "https://github.com/nitinprajwal/AutOSINT",
     skills: [
       "FastAPI",
       "RoBERTa",
@@ -97,7 +97,7 @@ export const PROJECTS: Project[] = [
     period: {
       start: "2023",
     },
-    link: "#",
+    link: "https://github.com/nitinprajwal/TokerTrail",
     skills: [
       "Solidity",
       "Ethers.js",
@@ -118,7 +118,7 @@ export const PROJECTS: Project[] = [
     period: {
       start: "2023",
     },
-    link: "#",
+    link: "https://github.com/nitinprajwal/SonicStegnoVault",
     skills: [
       "PyTorch",
       "GANs",
@@ -139,7 +139,7 @@ export const PROJECTS: Project[] = [
     period: {
       start: "2023",
     },
-    link: "#",
+    link: "https://github.com/nitinprajwal/Ecosave",
     skills: [
       "Node.js",
       "Express",
@@ -160,7 +160,7 @@ export const PROJECTS: Project[] = [
     period: {
       start: "2023",
     },
-    link: "#",
+    link: "https://github.com/nitinprajwal/knowbase",
     skills: [
       "Vite",
       "TypeScript",
@@ -174,6 +174,34 @@ export const PROJECTS: Project[] = [
     ],
     description: `- Built an end-to-end RAG pipeline for scientific literature, fine-tuning a Sentence-BERT model on a corpus of 10M+ academic abstracts to create highly contextual embeddings.
 - The system uses a Faiss index with Inverted File and Product Quantization (IVF-PQ) for sub-50ms retrieval of the top k relevant text chunks, which are then fed as context to a T5-base model to generate concise, cited answers, directly accelerating scientific research and SDG 9 (Industry, Innovation, and Infrastructure).`,
+    isExpanded: true,
+  },
+  {
+    id: "portfolio-v2",
+    title: "Portfolio: Version 2",
+    period: {
+      start: "2024",
+    },
+    link: "https://v2.nitinr.live/",
+    skills: [
+      "Vite",
+      "TypeScript",
+    ],
+    description: `Portfolio website 2`,
+    isExpanded: true,
+  },
+  {
+    id: "portfolio-v1",
+    title: "Portfolio: Version 1",
+    period: {
+      start: "2022",
+    },
+    link: "https://v1.nitinr.live/",
+    skills: [
+      "Vite",
+      "TypeScript",
+    ],
+    description: `Portfolio website 1`,
     isExpanded: true,
   },
 ];
