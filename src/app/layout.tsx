@@ -77,11 +77,11 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "images/logo.png",
+        url: "https://raw.githubusercontent.com/nitinprajwal/portfolio/refs/heads/main/images/logo.png",
         sizes: "any",
       },
       {
-        url: "images/logo.png",
+        url: "https://raw.githubusercontent.com/nitinprajwal/portfolio/refs/heads/main/images/logo.png",
         type: "image/png",
       },
     ],

@@ -131,6 +131,30 @@ export const EXPERIENCES: Experience[] = [
         title: "IoT Solutions Intern",
         employmentPeriod: {
           start: "06.2023",
+        },
+        employmentType: "Part-Time",
+        icon: "code",
+        description: `Implemented full landing Page for the client with RazorPay integration and N8N backend to servers`,
+        skills: [
+          "Figma",
+          "vite",
+          "API",
+          "Data Base",
+          "AI automation n8n"
+        ],
+        isExpanded: true,
+      },
+    ],
+  },
+  {
+    id: "Freelancing",
+    companyName: "Upwork, Fiverr",
+    positions: [
+      {
+        id: "freelancing",
+        title: "Software Developer, Website Designer",
+        employmentPeriod: {
+          start: "08.2023",
           end: "10.2023",
         },
         employmentType: "Internship",
